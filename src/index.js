@@ -3,7 +3,7 @@ export default {
     const url = new URL(request.url)
 
     const corsHeaders = {
-      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Origin": "https://local-project-q9v.pages.dev",
       "Access-Control-Allow-Methods": "GET, OPTIONS",
       "Access-Control-Allow-Headers": "Content-Type"
     }
